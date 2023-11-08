@@ -1,0 +1,5 @@
+# custom citekey for BetterBixTeX with Zotero
+# 08-Nov-2023, Koen Rademaker
+# note: enable "Force citation key to plain text" and "Enable citation key search", and set to "Keep keys unique across all libraries" to prevent issues with common surnames.
+
+auth.lower + "_" + (journal || Publisher).replace('.', '') + '_' + year
